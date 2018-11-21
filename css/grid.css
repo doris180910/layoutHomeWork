@@ -136,6 +136,9 @@
     }
   }
   @media screen and (min-width: 720px) {
+    .hamburger {
+      display: none;
+    }
     .fixed-width {
       width: 720px;
       margin: auto;

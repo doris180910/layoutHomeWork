@@ -19,7 +19,47 @@ nav a{
     transition: all .3s;
 }
 nav .menu a:hover{
-    background-color: rgb(219, 47, 191);
+    background-color: rgb(126, 7, 106);
+}
+.hamburger {
+    width: 60px;
+    height: 60px;
+    /* background-color: #aaa; */
+
+    position: relative;
+
+    float: right;
+}
+
+.hamburger span {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.hamburger span::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    bottom: 15px;
+}
+
+.hamburger span::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    top: 15px;
 }
 header{
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
